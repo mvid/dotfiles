@@ -1,0 +1,27 @@
+[user]
+	name = Mantas Vidutis
+	email = mantas.a.vidutis@gmail.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	ui = true
+[core]
+	editor = mate -w
+[alias]
+	co = checkout
+	st = status
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	di = diff
+	ci = commit
+	br = branch
+	l = log --oneline --decorate --graph
+	fixup = commit --amend -C HEAD
+	timeline = log --graph --branches --pretty=oneline --decorate
+	untracked-files = ls-files -o --exclude-standard
+	ignored-files = ls-files --others -i --exclude-standard
+	modified-files = ls-files -m
+[github]
+	user = mvid
+	token = 353429e7b04f2870d77aa557b27d6ffc

@@ -1,0 +1,40 @@
+# folders
+Applications/
+Desktop/
+Development/
+Documents/
+Downloads/
+Dropbox/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+VirtualBox VMs/
+
+.m2/
+.ipython/
+.oh-my-zsh/
+.pip/
+.vagrant.d/
+.dropbox/
+
+# zsh
+.zsh_history
+.zsh-update
+*.zcompdump*
+.bash_history
+.bash_profile
+
+# osx
+.DS_Store
+.Trash/
+
+# psql
+.psql_history
+
+# htop
+.htoprc
+
+.CFUserTextEncoding
+.ssh/*
