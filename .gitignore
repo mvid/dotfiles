@@ -18,6 +18,8 @@ VirtualBox VMs/
 .pip/
 .vagrant.d/
 .dropbox/
+.android/
+.lein/
 
 # zsh
 .zsh_history
@@ -32,6 +34,7 @@ VirtualBox VMs/
 
 # psql
 .psql_history
+.psql_history-mvid
 
 # htop
 .htoprc
