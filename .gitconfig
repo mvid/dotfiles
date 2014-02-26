@@ -25,3 +25,5 @@
 [github]
 	user = mvid
 	token = 353429e7b04f2870d77aa557b27d6ffc
+[push]
+	default = simple
