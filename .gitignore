@@ -27,6 +27,7 @@ VirtualBox VMs/
 *.zcompdump*
 .bash_history
 .bash_profile
+.zlogin
 
 # osx
 .DS_Store
@@ -41,3 +42,20 @@ VirtualBox VMs/
 
 .CFUserTextEncoding
 .ssh/*
+.viminfo
+.subversion
+.rvm/
+.pypirc
+.profile
+.npm/
+.netrc
+.mysql_history
+.mongorc.js
+.meteor/
+.meteorite/
+.gem/
+.cups/
+.dotcloud_cli/
+.heroku/
+.bashrc
+.cocoapods/
