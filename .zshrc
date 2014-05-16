@@ -40,8 +40,12 @@ export UPDATE_ZSH_DAYS=7
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew fabric github lein npm osx pip screen textmate django tmux 
-		virtualenvwrapper git-flow python cp gitignore heroku vagrant rvm ruby)
+
+export WORKON_HOME=~/Development/virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export PROJECT_HOME=/Users/mvid/Development
+
+plugins=(git brew fabric github lein npm osx pip screen textmate django tmux git-flow python cp gitignore heroku vagrant rvm ruby virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,10 +54,6 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export EDITOR="/usr/local/bin/mate -w"
 
 unsetopt share_history
-
-export WORKON_HOME=~/Development/virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export PROJECT_HOME=/Users/mvid/Development
 
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

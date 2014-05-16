@@ -34,8 +34,7 @@ VirtualBox VMs/
 .Trash/
 
 # psql
-.psql_history
-.psql_history-mvid
+.psql_history*
 
 # htop
 .htoprc
@@ -59,3 +58,4 @@ VirtualBox VMs/
 .heroku/
 .bashrc
 .cocoapods/
+.dropbox-master/
