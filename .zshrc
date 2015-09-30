@@ -45,17 +45,19 @@ export WORKON_HOME=~/Development/virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export PROJECT_HOME=/Users/mvid/Development
 
-plugins=(git brew fabric github lein npm osx pip screen textmate django tmux git-flow python cp gitignore heroku vagrant rvm ruby virtualenvwrapper)
+plugins=(git brew fabric github lein npm osx pip screen textmate django tmux git-flow python cp gitignore heroku vagrant ruby virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mvid/.gem/ruby/2.1.0/gems/bin
 export EDITOR="/usr/local/bin/mate -w"
 
-unsetopt share_history
+# go dev
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+alias intellij='GOROOT=/usr/local/go GOPATH=/Users/mvid/Development/shift/backend /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea'
 
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+unsetopt share_history
 
 # nvm
 source $(brew --prefix nvm)/nvm.sh
